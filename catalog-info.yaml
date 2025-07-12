@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: java-backend-sample
+  description: Sample Spring Boot backend for blog posts
+  annotations:
+    github.com/project-slug: your-username/java_backend_sample
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:syed
+
